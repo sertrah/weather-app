@@ -19,7 +19,7 @@ function App() {
   return (
       <QueryClientProvider client={queryClient}>
         <NotificationProvider>
-            <HashRouter basename="/">
+            <Router basename="/">
               <AppLayout >
                 <Suspense fallback={<Loader />}>
                   <Switch>
@@ -35,7 +35,7 @@ function App() {
                   </Switch>
                 </Suspense>
               </AppLayout>
-            </HashRouter>
+            </Router>
         </NotificationProvider>
       </QueryClientProvider>
   );
