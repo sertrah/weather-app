@@ -30,4 +30,7 @@ made with love  💓
     - Checking memory and CPU load
     - Lighthouse 
 
+# Palette color
+    taken from https://color.adobe.com/es/trends
 
+![paletteColor](./assets/paletta.PNG)
