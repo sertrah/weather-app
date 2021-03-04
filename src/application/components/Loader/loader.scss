@@ -1,0 +1,41 @@
+.loader {
+  background-color: #00000094;
+  position: fixed;
+  top: 0;
+  z-index: 4;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  &--container {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 0;
+    margin: 0 auto;
+    right: 0;
+    width: 152px;
+    color: #fff;
+    p {
+      white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    }
+  }
+  &--item {
+    border: 16px solid var(--rmd-app-bar-primary, #009688);
+    border-top: 16px solid var(--gray-color, #ccc);
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 3s linear infinite;
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

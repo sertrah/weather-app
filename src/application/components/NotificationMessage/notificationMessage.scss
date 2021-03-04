@@ -1,0 +1,38 @@
+.notification-container {
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 999999;
+    .notify-styleee {
+      background-color:  var(--rmd-app-bar-secondary, #7faf80);
+      padding: 15px 30px;
+      color: white;
+      strong {
+        display: block;
+      }
+
+    }
+    .notify{
+      &__error{
+        background-color:  var(--rmd-app-bar-secondary, #ff4081);
+      }
+    }
+  }
+  
+  .top-right {
+    top: 12px;
+    right: 12px;
+    animation: notify-in-right 0.7s;
+  }
+  
+  
+  @keyframes notify-in-right {
+    from {
+      transform: translateX(100%);
+    }
+  }
+  
+  @keyframes notify-in-left {
+    from {
+      transform: translateX(-100%);
+    }
+  }

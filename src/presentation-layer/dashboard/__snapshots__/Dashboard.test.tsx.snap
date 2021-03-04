@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dashboard tests renders well 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <h1>
+      Adidas Technical Test
+    </h1>
+    <div
+      class="loader"
+    >
+      <div
+        class="loader--container"
+      >
+        <div
+          class="loader--item"
+        />
+        <p />
+      </div>
+    </div>
+    <section
+      class="dashboard__container"
+    >
+      <div
+        class="rangeSlider"
+        style="width: 200px;"
+      >
+        <p
+          class="rangeSlider--text"
+        >
+          Pressure [hPa]
+        </p>
+        <p
+          class="rangeSlider--label"
+        >
+          1030
+        </p>
+        <input
+          class="rangeSlider--input"
+          max="1030"
+          min="970"
+          type="range"
+          value="1030"
+        />
+      </div>
+      <div
+        class="rangeSlider"
+        style="width: 200px;"
+      >
+        <p
+          class="rangeSlider--text"
+        >
+          Temperature [°C]
+        </p>
+        <p
+          class="rangeSlider--label"
+        >
+          30
+        </p>
+        <input
+          class="rangeSlider--input"
+          max="35"
+          min="10"
+          type="range"
+          value="30"
+        />
+      </div>
+    </section>
+  </div>
+   
+</div>
+`;

@@ -1,0 +1,18 @@
+
+:root {
+    --white: #fff;
+    --black: #000 ;
+    --primary: #097355;
+    --primary-dark: #072626;
+    --secundary: #BF988A;
+    --secundary-dark: #A67165;
+    --niceColor: #A63C3C;
+    --gray-light: #e6e6e6f0;
+}
+
+#main--container {
+    padding: 82px 20px;
+    @media only screen and (min-width: 468px) {
+        padding: 50px 20px;
+      }
+}
